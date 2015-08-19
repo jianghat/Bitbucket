@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D5CF50C-E322-4E7F-84FB-8BED7C73773A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MNWeakTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>419A6A02C9D9047E2A6F940D156B5C7F659944E8</key>
+		<string>https://github.com/jianghat/MNWeakTimer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MNWeakTimer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>419A6A02C9D9047E2A6F940D156B5C7F659944E8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jianghat/MNWeakTimer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>419A6A02C9D9047E2A6F940D156B5C7F659944E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>419A6A02C9D9047E2A6F940D156B5C7F659944E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MNWeakTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
