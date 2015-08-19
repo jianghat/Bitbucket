@@ -7,52 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78E112D11B84168400340907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E112D01B84168400340907 /* main.m */; };
-		78E112D41B84168400340907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E112D31B84168400340907 /* AppDelegate.m */; };
-		78E112DA1B84168400340907 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E112D91B84168400340907 /* ViewController.m */; };
 		78E112DF1B84168400340907 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E112DE1B84168400340907 /* Images.xcassets */; };
-		78E112EE1B84168400340907 /* MNWeakTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E112ED1B84168400340907 /* MNWeakTimerTests.m */; };
-		78E112F91B84175A00340907 /* MNTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E112F81B84175A00340907 /* MNTimerViewController.m */; };
-		78E113021B8425F300340907 /* MNWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E113011B8425F300340907 /* MNWeakTimer.m */; };
+		78E113061B842AB400340907 /* MNWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E113051B842AB400340907 /* MNWeakTimer.m */; };
+		78E113091B842C2600340907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E113081B842C2600340907 /* AppDelegate.m */; };
+		78E1130E1B842D7E00340907 /* MNTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1130B1B842D7E00340907 /* MNTimerViewController.m */; };
+		78E1130F1B842D7E00340907 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1130D1B842D7E00340907 /* ViewController.m */; };
+		78E113121B842D9F00340907 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78E113101B842D9F00340907 /* Info.plist */; };
+		78E113131B842D9F00340907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E113111B842D9F00340907 /* main.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78E112E81B84168400340907 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78E112C31B84168300340907 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78E112CA1B84168300340907;
-			remoteInfo = MNWeakTimer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		78E112CB1B84168400340907 /* MNWeakTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNWeakTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E112CF1B84168400340907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78E112D01B84168400340907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78E112D21B84168400340907 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MNWeakTimer/AppDelegate.h; sourceTree = "<group>"; };
-		78E112D31B84168400340907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MNWeakTimer/AppDelegate.m; sourceTree = "<group>"; };
-		78E112D81B84168400340907 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78E112D91B84168400340907 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78E112DE1B84168400340907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		78E112E71B84168400340907 /* MNWeakTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNWeakTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E112EC1B84168400340907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78E112ED1B84168400340907 /* MNWeakTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNWeakTimerTests.m; sourceTree = "<group>"; };
-		78E112F71B84175A00340907 /* MNTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTimerViewController.h; sourceTree = "<group>"; };
-		78E112F81B84175A00340907 /* MNTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTimerViewController.m; sourceTree = "<group>"; };
-		78E113001B8425F300340907 /* MNWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNWeakTimer.h; sourceTree = "<group>"; };
-		78E113011B8425F300340907 /* MNWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNWeakTimer.m; sourceTree = "<group>"; };
+		78E113041B842AB400340907 /* MNWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNWeakTimer.h; sourceTree = "<group>"; };
+		78E113051B842AB400340907 /* MNWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNWeakTimer.m; sourceTree = "<group>"; };
+		78E113071B842C2600340907 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Demo/AppDelegate.h; sourceTree = "<group>"; };
+		78E113081B842C2600340907 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Demo/AppDelegate.m; sourceTree = "<group>"; };
+		78E1130A1B842D7E00340907 /* MNTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTimerViewController.h; sourceTree = "<group>"; };
+		78E1130B1B842D7E00340907 /* MNTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTimerViewController.m; sourceTree = "<group>"; };
+		78E1130C1B842D7E00340907 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78E1130D1B842D7E00340907 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78E113101B842D9F00340907 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E113111B842D9F00340907 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78E112C81B84168300340907 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78E112E41B84168400340907 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,10 +45,10 @@
 		78E112C21B84168300340907 = {
 			isa = PBXGroup;
 			children = (
-				78E112D21B84168400340907 /* AppDelegate.h */,
-				78E112D31B84168400340907 /* AppDelegate.m */,
-				78E112CD1B84168400340907 /* MNWeakTimer */,
-				78E112EA1B84168400340907 /* MNWeakTimerTests */,
+				78E113071B842C2600340907 /* AppDelegate.h */,
+				78E113081B842C2600340907 /* AppDelegate.m */,
+				78E112CD1B84168400340907 /* Demo */,
+				78E113031B842AB400340907 /* MNWeakTimer */,
 				78E112CC1B84168400340907 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,44 +57,25 @@
 			isa = PBXGroup;
 			children = (
 				78E112CB1B84168400340907 /* MNWeakTimer.app */,
-				78E112E71B84168400340907 /* MNWeakTimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		78E112CD1B84168400340907 /* MNWeakTimer */ = {
+		78E112CD1B84168400340907 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				78E112FD1B8425B200340907 /* Controllers */,
-				78E112FF1B8425F300340907 /* MNWeakTimer */,
 				78E112CE1B84168400340907 /* Supporting Files */,
 			);
-			path = MNWeakTimer;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		78E112CE1B84168400340907 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				78E112DE1B84168400340907 /* Images.xcassets */,
-				78E112CF1B84168400340907 /* Info.plist */,
-				78E112D01B84168400340907 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78E112EA1B84168400340907 /* MNWeakTimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				78E112ED1B84168400340907 /* MNWeakTimerTests.m */,
-				78E112EB1B84168400340907 /* Supporting Files */,
-			);
-			path = MNWeakTimerTests;
-			sourceTree = "<group>";
-		};
-		78E112EB1B84168400340907 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78E112EC1B84168400340907 /* Info.plist */,
+				78E113101B842D9F00340907 /* Info.plist */,
+				78E113111B842D9F00340907 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,19 +83,19 @@
 		78E112FD1B8425B200340907 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				78E112D81B84168400340907 /* ViewController.h */,
-				78E112D91B84168400340907 /* ViewController.m */,
-				78E112F71B84175A00340907 /* MNTimerViewController.h */,
-				78E112F81B84175A00340907 /* MNTimerViewController.m */,
+				78E1130A1B842D7E00340907 /* MNTimerViewController.h */,
+				78E1130B1B842D7E00340907 /* MNTimerViewController.m */,
+				78E1130C1B842D7E00340907 /* ViewController.h */,
+				78E1130D1B842D7E00340907 /* ViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		78E112FF1B8425F300340907 /* MNWeakTimer */ = {
+		78E113031B842AB400340907 /* MNWeakTimer */ = {
 			isa = PBXGroup;
 			children = (
-				78E113001B8425F300340907 /* MNWeakTimer.h */,
-				78E113011B8425F300340907 /* MNWeakTimer.m */,
+				78E113041B842AB400340907 /* MNWeakTimer.h */,
+				78E113051B842AB400340907 /* MNWeakTimer.m */,
 			);
 			path = MNWeakTimer;
 			sourceTree = "<group>";
@@ -159,24 +120,6 @@
 			productReference = 78E112CB1B84168400340907 /* MNWeakTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78E112E61B84168400340907 /* MNWeakTimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78E112F41B84168400340907 /* Build configuration list for PBXNativeTarget "MNWeakTimerTests" */;
-			buildPhases = (
-				78E112E31B84168400340907 /* Sources */,
-				78E112E41B84168400340907 /* Frameworks */,
-				78E112E51B84168400340907 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78E112E91B84168400340907 /* PBXTargetDependency */,
-			);
-			name = MNWeakTimerTests;
-			productName = MNWeakTimerTests;
-			productReference = 78E112E71B84168400340907 /* MNWeakTimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,10 +131,6 @@
 				TargetAttributes = {
 					78E112CA1B84168300340907 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					78E112E61B84168400340907 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 78E112CA1B84168300340907;
 					};
 				};
 			};
@@ -209,7 +148,6 @@
 			projectRoot = "";
 			targets = (
 				78E112CA1B84168300340907 /* MNWeakTimer */,
-				78E112E61B84168400340907 /* MNWeakTimerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,14 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E113121B842D9F00340907 /* Info.plist in Resources */,
 				78E112DF1B84168400340907 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78E112E51B84168400340907 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,31 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E112D41B84168400340907 /* AppDelegate.m in Sources */,
-				78E112D11B84168400340907 /* main.m in Sources */,
-				78E113021B8425F300340907 /* MNWeakTimer.m in Sources */,
-				78E112F91B84175A00340907 /* MNTimerViewController.m in Sources */,
-				78E112DA1B84168400340907 /* ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78E112E31B84168400340907 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78E112EE1B84168400340907 /* MNWeakTimerTests.m in Sources */,
+				78E113131B842D9F00340907 /* main.m in Sources */,
+				78E1130E1B842D7E00340907 /* MNTimerViewController.m in Sources */,
+				78E113091B842C2600340907 /* AppDelegate.m in Sources */,
+				78E113061B842AB400340907 /* MNWeakTimer.m in Sources */,
+				78E1130F1B842D7E00340907 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78E112E91B84168400340907 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78E112CA1B84168300340907 /* MNWeakTimer */;
-			targetProxy = 78E112E81B84168400340907 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78E112EF1B84168400340907 /* Debug */ = {
@@ -348,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MNWeakTimer/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,44 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MNWeakTimer/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		78E112F51B84168400340907 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MNWeakTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNWeakTimer.app/MNWeakTimer";
-			};
-			name = Debug;
-		};
-		78E112F61B84168400340907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MNWeakTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNWeakTimer.app/MNWeakTimer";
 			};
 			name = Release;
 		};
@@ -417,15 +299,6 @@
 			buildConfigurations = (
 				78E112F21B84168400340907 /* Debug */,
 				78E112F31B84168400340907 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78E112F41B84168400340907 /* Build configuration list for PBXNativeTarget "MNWeakTimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78E112F51B84168400340907 /* Debug */,
-				78E112F61B84168400340907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
